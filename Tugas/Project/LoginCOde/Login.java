@@ -44,6 +44,9 @@ public class Login {
 
             if (nama.equals(namaValid) && nim.equals(nimValid)) {
                 System.out.println("Login Mahasiswa berhasil!");
+                System.out.println("Nama: " + namaValid);
+                System.out.println("NIM: " + nimValid);
+
             } else {
                 System.out.println("Login gagal! Nama atau NIM salah.");
             }
